@@ -132,9 +132,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Sprites.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h" />
+    <ClInclude Include="Sprites.h" />
+    <ClInclude Include="Utils.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="KeyEventHandler.h" />
   </ItemGroup>
