@@ -2,7 +2,7 @@
 #pragma once
 #include "Game.h"
 #include "Textures.h"
-#include "Scence.h"
+#include "Scene.h"
 #include "GameObject.h"
 #include "Brick.h"
 #include "Mario.h"
