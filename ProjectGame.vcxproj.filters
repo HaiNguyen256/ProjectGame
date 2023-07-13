@@ -51,6 +51,9 @@
     <ClCompile Include="Portal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Switch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -84,6 +87,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Portal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Switch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
