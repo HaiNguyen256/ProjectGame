@@ -4,7 +4,7 @@
 #include "Game.h"
 #include "Utils.h"
 
-#include "PlayScence.h"
+#include "PlayScene.h"
 #include "WorldMapScene.h"
 #include "IntroScene.h"
 #include "EndGame.h"
@@ -21,7 +21,7 @@ void CGame::Init(HWND hWnd)
 {
 	LPDIRECT3D9 d3d = Direct3DCreate9(D3D_SDK_VERSION);
 
-	this->hWnd = hWnd;
+	
 
 	D3DPRESENT_PARAMETERS d3dpp;
 
