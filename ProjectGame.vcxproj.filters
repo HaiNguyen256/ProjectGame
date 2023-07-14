@@ -22,6 +22,15 @@
     <Filter Include="Items">
       <UniqueIdentifier>{3da76805-8976-4425-b166-de6aeeddd605}</UniqueIdentifier>
     </Filter>
+    <Filter Include="EndGame">
+      <UniqueIdentifier>{10ee96e1-a835-44ba-8360-9a765ca546b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameBoard">
+      <UniqueIdentifier>{469b1714-39d2-4899-94e8-8b0434391db5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Intro">
+      <UniqueIdentifier>{7ca960dc-c589-4c6f-b093-717cc2cfe5e9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -87,6 +96,30 @@
     <ClCompile Include="PButton.cpp">
       <Filter>Items</Filter>
     </ClCompile>
+    <ClCompile Include="EndGame.cpp">
+      <Filter>EndGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Tag.cpp">
+      <Filter>EndGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>GameBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClearBoard.cpp">
+      <Filter>GameBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>GameBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Number.cpp">
+      <Filter>GameBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedBar.cpp">
+      <Filter>GameBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>Intro</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -148,6 +181,30 @@
     </ClInclude>
     <ClInclude Include="PButton.h">
       <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="EndGame.h">
+      <Filter>EndGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Tag.h">
+      <Filter>EndGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>GameBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClearBoard.h">
+      <Filter>GameBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>GameBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Number.h">
+      <Filter>GameBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedBar.h">
+      <Filter>GameBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>Intro</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
