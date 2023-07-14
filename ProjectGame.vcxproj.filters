@@ -81,6 +81,9 @@
     <ClCompile Include="Leaf.cpp">
       <Filter>Items</Filter>
     </ClCompile>
+    <ClCompile Include="EndPointItem.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -135,6 +138,9 @@
       <Filter>Items</Filter>
     </ClInclude>
     <ClInclude Include="Leaf.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="EndPointItem.h">
       <Filter>Items</Filter>
     </ClInclude>
   </ItemGroup>
