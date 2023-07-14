@@ -31,6 +31,15 @@
     <Filter Include="Intro">
       <UniqueIdentifier>{7ca960dc-c589-4c6f-b093-717cc2cfe5e9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{693b86aa-6128-49ee-97e1-509a05730fdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorldMap1">
+      <UniqueIdentifier>{a596660e-f44b-4227-823f-b02e85d0f27f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemies">
+      <UniqueIdentifier>{0ef4b9cb-1a6f-46a1-80bf-31e4ad4397d4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -120,6 +129,69 @@
     <ClCompile Include="IntroScene.cpp">
       <Filter>Intro</Filter>
     </ClCompile>
+    <ClCompile Include="FireBall.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Tail.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMario.cpp">
+      <Filter>WorldMap1</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>WorldMap1</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldMapScene.cpp">
+      <Filter>WorldMap1</Filter>
+    </ClCompile>
+    <ClCompile Include="BrickAttack.cpp">
+      <Filter>Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="BrokenBrick.cpp">
+      <Filter>Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="Fragment.cpp">
+      <Filter>Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveBar.cpp">
+      <Filter>Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="QBrick.cpp">
+      <Filter>Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="UpsideBrick.cpp">
+      <Filter>Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="Boomerang.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="BoomerangBros.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyGoomba.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyKoopas.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Goomba.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Koopas.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="PiranhaPlant.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Plant.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="PlantFireBall.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -205,6 +277,69 @@
     </ClInclude>
     <ClInclude Include="IntroScene.h">
       <Filter>Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBall.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Tail.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMario.h">
+      <Filter>WorldMap1</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>WorldMap1</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldMapScene.h">
+      <Filter>WorldMap1</Filter>
+    </ClInclude>
+    <ClInclude Include="BrickAttack.h">
+      <Filter>Bricks</Filter>
+    </ClInclude>
+    <ClInclude Include="BrokenBrick.h">
+      <Filter>Bricks</Filter>
+    </ClInclude>
+    <ClInclude Include="Fragment.h">
+      <Filter>Bricks</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveBar.h">
+      <Filter>Bricks</Filter>
+    </ClInclude>
+    <ClInclude Include="QBrick.h">
+      <Filter>Bricks</Filter>
+    </ClInclude>
+    <ClInclude Include="UpsideBrick.h">
+      <Filter>Bricks</Filter>
+    </ClInclude>
+    <ClInclude Include="Boomerang.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="BoomerangBros.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyGoomba.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyKoopas.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Goomba.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Koopas.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="PiranhaPlant.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Plant.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="PlantFireBall.h">
+      <Filter>Enemies</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
