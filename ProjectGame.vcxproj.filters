@@ -75,6 +75,9 @@
     <ClCompile Include="MushRoom.cpp">
       <Filter>Items</Filter>
     </ClCompile>
+    <ClCompile Include="Flower.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -123,6 +126,9 @@
       <Filter>Items</Filter>
     </ClInclude>
     <ClInclude Include="MushRoom.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Flower.h">
       <Filter>Items</Filter>
     </ClInclude>
   </ItemGroup>
