@@ -63,6 +63,9 @@
     <ClCompile Include="Brick.cpp">
       <Filter>Bricks</Filter>
     </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Grid</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
