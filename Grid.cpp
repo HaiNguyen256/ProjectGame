@@ -210,3 +210,25 @@ void Grid::GetListObject(vector<CGameObject*>& ListObj)
 				ListObj.push_back(cells[i][j].at(temp));
 
 }
+
+void Grid::HandleCell(int top, int left, int right, int bottom)
+{
+	for (int i = top; i <= bottom; i++)
+		for (int j = left; j <= right; j++)
+			if (cells[i][j].size() > 0)
+			{
+				for (int temp = 0; temp < int(cells[i][j].size()); temp++)
+				{
+					if (cells[i][j].at(temp)->type == OBJECT_TYPE_KOOPAS || cells[i][j].at(temp)->type == OBJECT_TYPE_FLYKOOPAS || cells[i][j].at(temp)->type == OBJECT_TYPE_GOOMBA || cells[i][j].at(temp)->type == OBJECT_TYPE_FLYGOOMBA)
+					{
+						int currenti = (int)((cells[i][j].at(temp)->y) / GRID_CELL_HEIGHT);
+						int currentj = (int)((cells[i][j].at(temp)->x) / GRID_CELL_WIDTH);
+						if (currenti != i || currentj != j)
+						{
+							cells[currenti][currentj].push_back(cells[i][j].at(temp));
+							cells[i][j].erase(cells[i][j].begin() + temp);
+						}
+					}
+				}
+			}
+}

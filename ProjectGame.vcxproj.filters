@@ -19,6 +19,9 @@
     <Filter Include="Grid">
       <UniqueIdentifier>{ad5c254f-2fc2-4623-84b2-7e36600ca1df}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Items">
+      <UniqueIdentifier>{3da76805-8976-4425-b166-de6aeeddd605}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -66,6 +69,9 @@
     <ClCompile Include="Grid.cpp">
       <Filter>Grid</Filter>
     </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -109,6 +115,9 @@
     </ClInclude>
     <ClInclude Include="Grid.h">
       <Filter>Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Items</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
