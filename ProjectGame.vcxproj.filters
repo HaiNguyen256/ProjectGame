@@ -78,6 +78,9 @@
     <ClCompile Include="Flower.cpp">
       <Filter>Items</Filter>
     </ClCompile>
+    <ClCompile Include="Leaf.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -129,6 +132,9 @@
       <Filter>Items</Filter>
     </ClInclude>
     <ClInclude Include="Flower.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Leaf.h">
       <Filter>Items</Filter>
     </ClInclude>
   </ItemGroup>
