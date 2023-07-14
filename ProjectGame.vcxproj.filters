@@ -98,5 +98,8 @@
     <ClInclude Include="Switch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>Bricks</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
