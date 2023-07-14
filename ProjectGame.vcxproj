@@ -143,6 +143,7 @@
     <ClCompile Include="Leaf.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MushRoom.cpp" />
+    <ClCompile Include="PButton.cpp" />
     <ClCompile Include="PlayScene.cpp" />
     <ClCompile Include="Portal.cpp" />
     <ClCompile Include="Scene.cpp" />
@@ -163,6 +164,7 @@
     <ClInclude Include="Grid.h" />
     <ClInclude Include="Leaf.h" />
     <ClInclude Include="MushRoom.h" />
+    <ClInclude Include="PButton.h" />
     <ClInclude Include="PlayScene.h" />
     <ClInclude Include="Portal.h" />
     <ClInclude Include="Sprites.h" />

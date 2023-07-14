@@ -84,6 +84,9 @@
     <ClCompile Include="EndPointItem.cpp">
       <Filter>Items</Filter>
     </ClCompile>
+    <ClCompile Include="PButton.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -141,6 +144,9 @@
       <Filter>Items</Filter>
     </ClInclude>
     <ClInclude Include="EndPointItem.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="PButton.h">
       <Filter>Items</Filter>
     </ClInclude>
   </ItemGroup>
