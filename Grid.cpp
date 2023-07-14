@@ -187,3 +187,26 @@ void Grid::loadGrid(CMario* player, vector<CQBrick*>& qbrick, vector<CBrokenBric
 
 
 }
+
+void Grid::GetListObject(vector<CGameObject*>& ListObj)
+{
+	ListObj.clear();
+	CGame* game = CGame::GetInstance();
+	float camx;
+	float camy;
+	game->GetCamPos(camx, camy);
+
+	int bottom = (int)((camy + game->GetScreenHeight()) / GRID_CELL_HEIGHT);
+	int top = (int)((camy) / GRID_CELL_HEIGHT);
+
+	int left = (int)((camx) / GRID_CELL_WIDTH);
+	int right = (int)((camx + game->GetScreenWidth()) / GRID_CELL_WIDTH);
+
+	HandleCell(top, left, right, bottom);
+
+	for (int i = top; i <= bottom; i++)
+		for (int j = left; j <= right; j++)
+			for (int temp = 0; temp < int(cells[i][j].size()); temp++)
+				ListObj.push_back(cells[i][j].at(temp));
+
+}
